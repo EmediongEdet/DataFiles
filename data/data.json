@@ -1,7 +1,7 @@
 {
 
     "products": [
-        {    
+       {"product1":{
            "productID": 1,
            "productImage": "images/product1.png",
            "productName": "Nature Fabric",
@@ -11,10 +11,11 @@
            "productStock": "2",
            "productImage1": "images/product1a.png",
            "productImage2": "images/product1b.png",
-           "productImage3": "images/product1c.png"
+           "productImage3": "images/product1c.png",
+           "placeholderImage": "images/placeholder.png"
 
        },
-       {
+       "product2": {
            "productID": 2,
            "productImage": "images/product2.png",
            "productName": "Epic Beauty",
@@ -24,10 +25,11 @@
            "productStock": "4",
            "productImage1": "images/product2a.png",
            "productImage2": "images/product2b.png",
-           "productImage3": "images/product2c.png"
+           "productImage3": "images/product2c.png",
+           "placeholderImage": "images/placeholder.png"
 
        },
-       {
+       "product3": {
            "productID": 3,
            "productImage": "images/product3.png",
            "productName": "Wooden Beauty",
@@ -37,10 +39,11 @@
            "productStock": "6",
            "productImage1": "images/product3a.png",
            "productImage2": "images/product3b.png",
-           "productImage3": "images/product3c.png"
+           "productImage3": "images/product3c.png",
+           "placeholderImage": "images/placeholder.png"
 
        },
-       {
+       "product4": {
            "productID": 4,
            "productImage": "images/product4.png",
            "productName": "Empress",
@@ -50,10 +53,11 @@
            "productStock": "8",
            "productImage1": "images/product4a.png",
            "productImage2": "images/product4b.png",
-           "productImage3": "images/product4c.png"
+           "productImage3": "images/product4c.png",
+           "placeholderImage": "images/placeholder.png"
 
        },
-       {
+       "product5": {
            "productID": 5,
            "productImage": "images/product5.png",
            "productName": "Savour",
@@ -63,31 +67,35 @@
            "productStock": "7",
            "productImage1": "images/product5a.png",
            "productImage2": "images/product5b.png",
-           "productImage3": "images/product5c.png"
+           "productImage3": "images/product5c.png",
+           "placeholderImage": "images/placeholder.png"
 
        }
-   
-    ],
+   }],
+
 
    
    "customerReviews": [
-       {
+       {"customer1": {
            "customerID": 1,
            "customerImage": "images/customer2.png",
+           "placeholderImage": "images/placeholder.png",
            "customerName": "Fedrick Thomas",
            "review": "Exceptional craftsmanship and unique designs—every piece feels like a work of art. A true gem in the world of handmade products!"
        },
-       {
+       "customer2": {
            "customerID": 2,
            "customerImage": "images/customer3.png",
+           "placeholderImage": "images/placeholder.png",
            "customerName": "Samuel Jackson",
            "review": "Amazing quality and attention to detail! The handcrafted items from this startup bring warmth and character to my home."
        },
-       {
+       "customer3": {
            "customerID": 2,
            "customerImage": "images/customer4.png",
+           "placeholderImage": "images/placeholder.png",
            "customerName": "Ben Emerson",
            "review": "Impressive service and stunning products. The perfect place to find one-of-a-kind, artisan-made pieces that stand out."
        }
-    ]
+       }]
 }
